@@ -36,12 +36,8 @@
 
 - [SQLTools](https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools)
 
-- SQLTools PostgreSQL/Redshift Driver
-Id: mtxr.sqltools-driver-pg
-Description: SQLTools PostgreSQL/Redshift Driver
-Version: 0.2.0
-Publisher: Matheus Teixeira
-VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools-driver-pg
+- [SQLTools PostgreSQL/Redshift Driver](https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools-driver-pg)
+
 - [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
 
 - [vscode-jq](https://marketplace.visualstudio.com/items?itemName=dandric.vscode-jq)
