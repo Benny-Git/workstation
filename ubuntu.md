@@ -52,6 +52,7 @@ curl -LO https://raw.githubusercontent.com/ahmetb/kubectx/master/completion/kube
 mv kubectx.bash ~/.local/share/bash-completion/completions/kubectx
 cat ~/.local/share/bash-completion/completions/kubectx | sed 's/kubectx/kctx/g' > ~/.local/share/bash-completion/completions/kctx
 
+
 curl -LO https://github.com/ahmetb/kubectx/releases/download/v0.9.4/kubens
 chmod +x kubens
 mv kubens ~/.local/bin/kubens
