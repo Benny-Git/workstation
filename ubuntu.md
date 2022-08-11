@@ -87,3 +87,15 @@ mv kind ~/.local/bin/kind
 mkdir -p ~/.local/share/bash-completion/completions
 kind completion bash > ~/.local/share/bash-completion/completions/kind
 ```
+
+### k9s
+
+```bash
+cd /w
+git clone git@github.com:derailed/k9s.git
+make build
+mv execs/k9s ~/.local/bin/k9s
+
+mkdir -p ~/.local/share/bash-completion/completions
+k9s completion bash > ~/.local/share/bash-completion/completions/k9s
+```
