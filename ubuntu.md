@@ -41,6 +41,16 @@ curl \
     -o ~/.local/share/bash-completion/completions/docker-compose
 ```
 
+## install sqlite
+
+```bash
+wget -c https://www.sqlite.org/2022/sqlite-amalgamation-3390200.zip
+unzip sqlite-amalgamation-3390200.zip
+cd sqlite-amalgamation-3390200/
+gcc shell.c sqlite3.c -lpthread -ldl -lm -o sqlite3
+mv sqlite3 ~/.local/bin/
+```
+
 ## install k8s specific packages
 
 ### kubectl, kubens, kubectx
