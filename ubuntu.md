@@ -29,6 +29,13 @@ sudo apt install \
   postgresql-client-common postgresql-client
 ```
 
+## install docker-compose
+
+```bash
+sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o ~/.local/bin/docker-compose
+sudo chmod +x ~/.local/bin/docker-compose
+```
+
 ## install k8s specific packages
 
 ### kubectl, kubens, kubectx
