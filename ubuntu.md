@@ -121,3 +121,15 @@ mv execs/k9s ~/.local/bin/k9s
 mkdir -p ~/.local/share/bash-completion/completions
 k9s completion bash > ~/.local/share/bash-completion/completions/k9s
 ```
+
+### linkerd
+
+```bash
+curl -L https://github.com/linkerd/linkerd2/releases/download/stable-2.12.2/linkerd2-cli-stable-2.12.2-linux-amd64 -o linkerd
+chmod +x ./linkerd
+mv linkerd ~/.local/bin/linkerd
+
+mkdir -p ~/.local/share/bash-completion/completions
+linkerd completion bash > ~/.local/share/bash-completion/completions/linkerd
+```
+
